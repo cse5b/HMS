@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+#wrapper{
+	width:1340px;
+	height:800px;
+	background-color:red;
+	margin-top:none;
+}
+#header{
+	width:1340px;
+	height:100px;
+	background-color:silver;
+	margin-top:none;
+}
+#text{
+	
+}
+#questions{
+	width:650px;
+	height:580px;
+	background-color:teal;
+	position:relative;
+	float:left;
+	}
+#question input{
+	margin-top:20px;
+	font-size:25px;
+	
+}
+#rightdivisions{
+	width:650px;
+	height:580px;
+	background-color:orange;
+	float:right;
+	position:relative;
+	
+	}
+	#footer{
+	width:1340x;
+	height:100px;
+	background-color:blue;
+	position:relative;
+	clear:both;
+	}

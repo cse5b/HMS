@@ -1,0 +1,26 @@
+#background{
+	
+	background-image: url("login.JPG");
+	width:1340px;
+	height:1200px;
+	opacity: 0.5;
+	filter: Alpha(opacity=50);
+
+   
+   
+}
+#text{
+	width:500px;
+	height:400px;
+	Background-color:white;
+	margin-left:450px;
+}
+#text:hover{
+	background-color:white;
+
+	}
+#login{
+	
+	background-color:red;
+	text-align:center;
+}

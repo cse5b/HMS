@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+#outerbox{
+	
+	width:700px;
+	overflow:hidden;
+}
+#sliderbox{
+	position: relative;
+	width : 2800px;
+   /* this will also work :-(animation-name:anil;
+    animation-duration:20s;
+	animation-iteration-count:infinite;)*/
+	animation : anil 20s infinite;
+}
+#sliderbox img{
+	float : left;
+	height : 500px;
+	width : 700px;
+}
+@keyframes anil{
+0%
+{
+left:0px;
+}
+20%
+{
+left:0px;
+}
+25%
+{
+left:-700px;
+}
+45%
+{
+left:-700px;
+}
+50%
+{
+left: -1400px;
+}
+70%
+{
+left:-1400px;
+}
+75%
+{
+left:-2100px;
+}
+95%
+{
+left:-2100px;
+}
+100%
+{
+left:-2800px;
+}
+}
